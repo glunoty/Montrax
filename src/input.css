@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("assets/fonts/NeueMontreal-Book.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neue Montreal Medium";
+  src: url("assets/fonts/NeueMontreal-Medium.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fade-up {
+  transform: translateY(80px);
+  opacity: 0;
+  transition-property: transform, opacity;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+}
+
+.fade-up.visible {
+  transform: none;
+  opacity: 1;
+}

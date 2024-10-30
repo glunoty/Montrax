@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link href="./input.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="max-w-[1400px] mx-auto py-5 md:py-7 sticky top-0 z-10">
+      <ul
+        class="w-[80%] sm:w-[60%] md:w-[40%] lg:w-[25%] mx-auto flex justify-center gap-1 rounded-full p-1 text-sm bg-[#e8e5e480] backdrop-blur-lg"
+      >
+        <li class="flex-1">
+          <a
+            href="/src/index.html"
+            class="block py-2 px-4 text-center rounded-full bg-white"
+            >Home</a
+          >
+        </li>
+        <li class="flex-1">
+          <a
+            href="/src/profile.html"
+            class="block py-2 px-4 text-center rounded-full"
+            >Profile</a
+          >
+        </li>
+        <li class="flex-1">
+          <a
+            href="/src/contact.html"
+            class="block py-2 px-4 text-center rounded-full"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="max-w-[1400px] mx-auto p-5 lg:p-10 text-center text-sm my-[25%] lg:my-0"
+    >
+      <h1
+        class="lg:w-[800px] mx-auto text-4xl md:text-5xl lg:text-7xl leading-[2.7rem] md:leading-[3.6rem] lg:leading-[5.4rem] tracking-[-0.013] font-neuemedium mb-9 fade-up"
+      >
+        Building Visually Compelling and Usable Web Designs
+      </h1>
+
+      <div
+        class="hidden md:flex justify-center items-center gap-3 fade-up delay-150"
+      >
+        <span>Expertise</span
+        ><span class="py-2 px-3 rounded-full bg-[#e8e5e480]"
+          >Frontend Developer</span
+        ><span class="py-2 px-3 rounded-full bg-[#e8e5e480]"
+          >UI/UX Designer</span
+        >
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="max-w-[1400px] mx-auto p-5 lg:p-10 fade-up delay-200">
+      <div class="grid lg:grid-cols-2 gap-5">
+        <!-- Items 1 -->
+        <a href="https://github.com/glunoty/SonicFlow">
+          <div class="relative aspect-video rounded-full">
+            <img
+              src="https://images.unsplash.com/photo-1578242174372-e26b3681587f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+              class="object-cover h-full w-full rounded-xl mb-3 transition-all duration-300 transform hover:scale-105"
+            />
+            <div
+              class="lg:absolute hover:lg:flex lg:justify-start lg:items-start lg:p-5 lg:top-0 lg:bottom-0 lg:left-0 lg:right-0 lg:rounded-xl hover:lg:bg-black hover:lg:bg-opacity-50 hover:lg:backdrop-blur-lg text-sm text-black lg:text-transparent hover:lg:text-white transition duration-300 ease-in-out"
+            >
+              SonicFlow
+            </div>
+          </div>
+        </a>
+
+        <!-- Items 2 -->
+        <a
+          href="https://www.figma.com/design/Hph3y6w3VF4lhiKJMm6JHz/Mony?m=auto&t=qNNwWUidUXQiwuE9-6"
+        >
+          <div class="relative aspect-video rounded-full">
+            <img
+              src="/src/assets/img/thumbnail1.png"
+              alt=""
+              class="rounded-xl mb-3 transition-all duration-300 transform hover:scale-105"
+            />
+            <div
+              class="object-cover h-full w-full lg:absolute hover:lg:flex lg:justify-start lg:items-start lg:p-5 lg:top-0 lg:bottom-0 lg:left-0 lg:right-0 lg:rounded-xl hover:lg:bg-black hover:lg:bg-opacity-50 hover:lg:backdrop-blur-lg text-sm text-black lg:text-transparent hover:lg:text-white transition duration-300 ease-in-out"
+            >
+              Mony
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section
+      class="section max-w-[1400px] mx-auto p-5 lg:p-10 text-center text-sm my-[25%] lg:my-[5%]"
+    >
+      <h1
+        class="lg:w-[800px] mx-auto text-3xl md:text-4xl tracking-[-0.013] font-neuemedium fade-up"
+      >
+        Let's Work Together.
+      </h1>
+      <a
+        href="mailto:iluviums@gmail.com"
+        class="lg:w-[800px] mx-auto text-3xl md:text-4xl tracking-[-0.013] font-neuemedium text-gray-500 hover:text-gray-400 fade-up delay-150 block"
+      >
+        Get in touch.
+      </a>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="max-w-[1400px] mx-auto p-5 lg:p-10 text-center text-sm my-[20%] lg:my-0 lg:flex justify-between space-y-2"
+    >
+      <h6>© Sheptiyan Agung Rizmawan 2024</h6>
+      <div class="space-x-4">
+        <a href="">Github</a>
+        <a href="">Mail</a>
+        <a href="">Instagram</a>
+      </div>
+    </footer>
+
+    <script src="/src/scripts.js"></script>
+  </body>
+</html>
