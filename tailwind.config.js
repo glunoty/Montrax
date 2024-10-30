@@ -7,16 +7,8 @@ module.exports = {
         sans: ['"Neue Montreal"', "sans-serif"],
         neuemedium: ['"Neue Montreal medium"', "sans-serif"],
       },
-
-      animation: {
-        fade: "fadeIn .5s ease-in-out",
-      },
-
-      keyframes: {
-        fadeIn: {
-          from: { opacity: 0 },
-          to: { opacity: 1 },
-        },
+      colors: {
+        montraxblack: "#0C0C0C",
       },
     },
   },
