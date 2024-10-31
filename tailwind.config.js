@@ -8,7 +8,7 @@ module.exports = {
         neuemedium: ['"Neue Montreal medium"', "sans-serif"],
       },
       colors: {
-        montraxblack: "#0C0C0C",
+        montraxblack: "#111827",
       },
     },
   },
