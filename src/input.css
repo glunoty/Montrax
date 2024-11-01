@@ -32,3 +32,25 @@ body {
   transform: none;
   opacity: 1;
 }
+
+.montrax {
+  width: 50px; /* Reduced width */
+  aspect-ratio: 1;
+  border: 6px solid #fff; /* Reduced border */
+  box-sizing: border-box;
+  background: radial-gradient(farthest-side, #000 98%, #fff0) 50%/12px 12px,
+    radial-gradient(farthest-side, #000 98%, #fff0) 50%/12px 12px,
+    radial-gradient(farthest-side, #000 98%, #fff0) 50%/12px 12px,
+    radial-gradient(farthest-side, #000 98%, #fff0) 50%/12px 12px,
+    radial-gradient(farthest-side, #000 98%, #fff0) 50%/12px 12px,
+    linear-gradient(#000 0 0) 50%/100% 6px,
+    linear-gradient(#000 0 0) 50%/6px 100%, #fff;
+  background-repeat: no-repeat;
+  filter: blur(3px) contrast(10); /* Slightly reduced blur */
+  animation: l13 0.8s infinite;
+}
+@keyframes l13 {
+  100% {
+    background-position: 50% -12px, -12px 50%, 38px 50%, 50% 38px, 50%, 50%, 50%;
+  }
+}
