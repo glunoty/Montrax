@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const fadeUpElements = document.querySelectorAll(".fade-up");
 
   const observerOptions = {
-    threshold: 0, // elemen mulai terlihat pada 10% dari bagiannya
+    threshold: 0,
     rootMargin: "30px 0px",
   };
 
